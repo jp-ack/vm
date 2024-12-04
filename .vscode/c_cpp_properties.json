@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/ucrt64/include/**",  // MSYS2 UCRT include path
+                "C:/msys64/mingw64/include/**",  // MinGW include path (only if necessary)
+                "C:/msys64/ucrt64/lib/gcc/x86_64-ucrt64/13.2.0/include/**", // GCC includes
+                "C:/msys64/mingw64/include/c++/13.2.0/**"  // MinGW C++ standard library (only if necessary)
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",  // Correct IntelliSense mode for GCC
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe"  // Correct compiler path for C++
+        }
+    ],
+    "version": 4
+}
+
