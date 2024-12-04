@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "iostream": "c"
+        "iostream": "c",
+        "signal.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
