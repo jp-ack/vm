@@ -119,7 +119,7 @@ int main(int argc, const char* argv[])
                     /* first operand (SR1) */
                     uint16_t r1 = (instr >> 6) & 0x7;
                     /* whether we are in immediate mode */
-                    uint16_t imm_flag = (instr >> 5) & 0x1;
+                    uint16_t imm_flag = (instr >> 5) & 0x1;       
 
                     if (imm_flag)
                     {
@@ -132,9 +132,9 @@ int main(int argc, const char* argv[])
                         reg[r0] = reg[r1] + reg[r2];
                     }
 
-                    update_flags(r0);
+                    update_flags(r0);     
                 }
-                break;
+                break;  
             case OP_AND:
                 @{AND}
                 break;

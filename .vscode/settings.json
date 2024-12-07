@@ -3,5 +3,9 @@
         "iostream": "c",
         "signal.h": "c"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.detectIndentation": true,
+    "editor.stickyScroll.defaultModel": "outlineModel"
 }
