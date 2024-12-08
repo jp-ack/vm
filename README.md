@@ -35,7 +35,7 @@ To build and run the LC-3 virtual machine, you'll need:
    ```bash
    gcc vm.c -0 -vm
 
- This will create an executable file (vm.exe) within your vm folder.
+   This will create an executable file (vm.exe) within your vm folder.
 
 3. Unix Mis-match (See Step 4)
    ```bash
