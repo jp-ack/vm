@@ -36,8 +36,6 @@ To build and run the LC-3 virtual machine, you'll need:
    ```bash
    gcc vm.c -0 -vm
 
-   
-
 3. Unix Mis-match (See Step 4)
    ```bash
    $ ./a C:\Users\your_name\vm\rogue.obj will NOT fly 
