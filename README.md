@@ -25,5 +25,19 @@ To build and run the LC-3 virtual machine, you'll need:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/lc3-vm.git
-   cd lc3-vm
+   git clone https://github.com/jp-ack/vm.git
+   cd vm
+
+2. Compile The source code
+   ```bash
+   gcc vm.c -0 -vm
+
+3. Unix Mis-match (See Step 4)
+   ```bash
+   $ ./a C:\Users\jp\Virtual_Machine\rogue.obj will NOT fly 
+
+4. Proper path format
+   Must be forward all forward slashes """/"""     
+   ```bash
+   $ ./a /c/Users/jp/Virtual_Machine/rogue.obj
+
