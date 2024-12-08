@@ -38,10 +38,10 @@ To build and run the LC-3 virtual machine, you'll need:
 
 3. Unix Mis-match (See Step 4)
    ```bash
-   $ ./a C:\Users\your_name\vm\rogue.obj will NOT fly 
+   $ ./vm /path/to\your\obj/file/ will NOT fly 
 
 4. Proper path format
    Must be forward all forward slashes "/"   
    ```bash
-   $ ./a /c/Users/your_name/vm/rogue.obj
+   $ ./vm /path to your obj file/
 
