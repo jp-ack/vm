@@ -1,6 +1,11 @@
 {
     "files.associations": {
-        "iostream": "c"
+        "iostream": "c",
+        "signal.h": "c"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.guides.indentation": false,
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.detectIndentation": true,
+    "editor.stickyScroll.defaultModel": "outlineModel"
 }
